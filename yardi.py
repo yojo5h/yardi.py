@@ -2,11 +2,7 @@
 
 #yardi script
 
-import ms.version
-ms.version.addpkg('pandas', '0.23.4')
-ms.version.addpkg('xlrd', '1.0.0')
-#.. rest of the ms packages..
-
+#first part moves files from source directory to destination then converts files from xlsx to csv
 import os 
 from os import path
 import shutil
